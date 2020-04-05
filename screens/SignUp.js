@@ -8,8 +8,8 @@ export default function SignUp({ navigation }) {
       <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }}>
         <View
           style={{
-            justifyContent: "top",
-            alignItems: "left",
+            justifyContent: "flex-start",
+            alignItems: "flex-start",
             backgroundColor: "#fff",
           }}
         >
@@ -29,7 +29,7 @@ export default function SignUp({ navigation }) {
         </View>
         <View
           style={{
-            justifyContent: "top",
+            justifyContent: "flex-start",
             backgroundColor: "#fff",
             paddingLeft: 20,
             paddingRight: 20,
