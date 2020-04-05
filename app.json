@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "todoApp2",
-    "slug": "todoApp2",
+    "name": "Sen Todo",
+    "slug": "sen-todo",
     "platforms": [
       "ios",
       "android",
@@ -24,6 +24,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/huynhducduy/todo-app2"
   }
 }

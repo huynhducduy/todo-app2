@@ -7,6 +7,7 @@ import {
   StatusBar,
   Dimensions,
   TouchableOpacity,
+  ScrollView,
 } from "react-native";
 import { Button, ListItem, Overlay, Avatar } from "react-native-elements";
 import { TabView, SceneMap, TabBar } from "react-native-tab-view";
@@ -23,11 +24,7 @@ export default function MyTask() {
     { key: "second", title: "Month" },
   ]);
 
-  const FirstRoute = () => (
-    <View style={{ flex: 1, backgroundColor: "#fff" }} />
-  );
-
-  const SecondRoute = () => {
+  const Route = () => {
     return (
       <>
         <View style={{ flex: 1, backgroundColor: "#fff" }}>
@@ -95,7 +92,7 @@ export default function MyTask() {
                 size={25}
                 color="#F96060"
               />
-              title="Meet according with design team in..."
+              title="Meet according with design team "
               titleStyle={{ fontFamily: "ABeeZee-Regular" }}
               subtitle="9:00am"
               subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
@@ -108,8 +105,8 @@ export default function MyTask() {
   };
 
   const renderScene = SceneMap({
-    first: FirstRoute,
-    second: SecondRoute,
+    first: Route,
+    second: Route,
   });
 
   return (
@@ -170,10 +167,10 @@ export default function MyTask() {
         windowBackgroundColor="rgba(0, 0, 0, .5)"
         overlayBackgroundColor="#fff"
         width="90%"
-        height="75%"
+        height="80%"
         onBackdropPress={() => setVisible(false)}
       >
-        <>
+        <ScrollView>
           <TouchableOpacity
             style={{
               position: "absolute",
@@ -370,7 +367,7 @@ export default function MyTask() {
               />
             </Text>
           </View>
-        </>
+        </ScrollView>
       </Overlay>
     </>
   );

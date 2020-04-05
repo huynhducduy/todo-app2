@@ -58,7 +58,7 @@ const Route = () => {
               size={25}
               color="#F96060"
             />
-            title="Meet according with design team in..."
+            title="Meet according with design team "
             titleStyle={{ fontFamily: "ABeeZee-Regular" }}
             subtitle="9:00am"
             subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
@@ -133,7 +133,7 @@ const Route = () => {
               size={25}
               color="#F96060"
             />
-            title="Meet according with design team in..."
+            title="Meet according with design team "
             titleStyle={{ fontFamily: "ABeeZee-Regular" }}
             subtitle="9:00am"
             subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
@@ -180,7 +180,7 @@ const Route = () => {
               size={25}
               color="#F96060"
             />
-            title="Meet according with design team in..."
+            title="Meet according with design team "
             titleStyle={{ fontFamily: "ABeeZee-Regular" }}
             subtitle="9:00am"
             subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
