@@ -102,7 +102,12 @@ function MyTabBar({ state, descriptors, navigation }) {
                   style={{ marginBottom: -3 }}
                   color={isFocused ? "#fff" : "#8E8E93"}
                 />
-                <Text style={{ color: isFocused ? "#fff" : "#8E8E93" }}>
+                <Text
+                  style={{
+                    color: isFocused ? "#fff" : "#8E8E93",
+                    fontFamily: "ABeeZee-Regular",
+                  }}
+                >
                   {label}
                 </Text>
               </TouchableOpacity>
