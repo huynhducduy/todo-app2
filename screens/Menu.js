@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   Alert,
 } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
 import { ScrollView } from "react-native-gesture-handler";
 import { Overlay, Input, Button } from "react-native-elements";
 
@@ -336,11 +337,16 @@ export default function Menu() {
                   setColor("blue");
                 }}
               >
-                <Text
-                  style={{ fontSize: 25, color: "#fff", textAlign: "center" }}
-                >
-                  {colorPick === "blue" ? "V" : ""}
-                </Text>
+                <Ionicons
+                  style={{
+                    marginTop: -10,
+                    marginLeft: 15,
+                    display: colorPick === "blue" ? "flex" : "none",
+                  }}
+                  name="ios-checkmark"
+                  size={50}
+                  color="#fff"
+                />
               </TouchableOpacity>
               <TouchableOpacity
                 style={{
@@ -355,11 +361,16 @@ export default function Menu() {
                   setColor("pink");
                 }}
               >
-                <Text
-                  style={{ fontSize: 25, color: "#fff", textAlign: "center" }}
-                >
-                  {colorPick === "pink" ? "V" : ""}
-                </Text>
+                <Ionicons
+                  style={{
+                    marginTop: -10,
+                    marginLeft: 15,
+                    display: colorPick === "pink" ? "flex" : "none",
+                  }}
+                  name="ios-checkmark"
+                  size={50}
+                  color="#fff"
+                />
               </TouchableOpacity>
               <TouchableOpacity
                 style={{
@@ -368,18 +379,23 @@ export default function Menu() {
                   width: 50,
                   borderRadius: 6,
                   marginRight: 10,
-                  paddingTop: 5,
+                  paddingTop: 8,
                   marginRight: 10,
                 }}
                 onPress={() => {
                   setColor("skin");
                 }}
               >
-                <Text
-                  style={{ fontSize: 30, color: "#fff", textAlign: "center" }}
-                >
-                  {colorPick === "skin" ? "V" : ""}
-                </Text>
+                <Ionicons
+                  style={{
+                    marginTop: -10,
+                    marginLeft: 15,
+                    display: colorPick === "skin" ? "flex" : "none",
+                  }}
+                  name="ios-checkmark"
+                  size={50}
+                  color="#fff"
+                />
               </TouchableOpacity>
               <TouchableOpacity
                 style={{
@@ -395,11 +411,16 @@ export default function Menu() {
                   setColor("green");
                 }}
               >
-                <Text
-                  style={{ fontSize: 25, color: "#fff", textAlign: "center" }}
-                >
-                  {colorPick === "green" ? "V" : ""}
-                </Text>
+                <Ionicons
+                  style={{
+                    marginTop: -10,
+                    marginLeft: 15,
+                    display: colorPick === "green" ? "flex" : "none",
+                  }}
+                  name="ios-checkmark"
+                  size={50}
+                  color="#fff"
+                />
               </TouchableOpacity>
               <TouchableOpacity
                 style={{
@@ -415,11 +436,16 @@ export default function Menu() {
                   setColor("orange");
                 }}
               >
-                <Text
-                  style={{ fontSize: 25, color: "#fff", textAlign: "center" }}
-                >
-                  {colorPick === "orange" ? "V" : ""}
-                </Text>
+                <Ionicons
+                  style={{
+                    marginTop: -10,
+                    marginLeft: 15,
+                    display: colorPick === "orange" ? "flex" : "none",
+                  }}
+                  name="ios-checkmark"
+                  size={50}
+                  color="#fff"
+                />
               </TouchableOpacity>
             </View>
             <Button
