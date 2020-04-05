@@ -3,7 +3,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { View, Text, SafeAreaView, StatusBar } from "react-native";
 import { Button } from "react-native-elements";
 
-export default function NewTask() {
+export default function NewTask({ navigation }) {
   return (
     <>
       <StatusBar barStyle="light-content" />
@@ -32,6 +32,7 @@ export default function NewTask() {
             position: "absolute",
             left: 5,
           }}
+          onPress={() => navigation.goBack()}
         />
       </View>
     </>
