@@ -4,18 +4,18 @@ import { Text, View, StatusBar, SafeAreaView } from "react-native";
 export default function Menu() {
   return (
     <>
-      <StatusBar barStyle="light-content" />
-      <SafeAreaView style={{ backgroundColor: "#F96060" }} />
+      <StatusBar barStyle="dark-content" />
+      <SafeAreaView style={{ backgroundColor: "#fff" }} />
       <View
         style={{
-          backgroundColor: "#F96060",
+          backgroundColor: "#fff",
           height: 50,
           justifyContent: "center",
         }}
       >
         <Text
           style={{
-            color: "#fff",
+            color: "#000",
             fontFamily: "ABeeZee-Regular",
             fontSize: 20,
             textAlign: "center",
