@@ -67,14 +67,15 @@ const SecondRoute = () => {
             }}
             key={1}
             leftIcon=<Ionicons
-              name="ios-checkmark-circle-outline"
+              name="ios-checkmark-circle"
               size={25}
               color="#F96060"
             />
-            title="Meet according with design"
+            title="Meet according with design team in..."
             titleStyle={{ fontFamily: "ABeeZee-Regular" }}
             subtitle="9:00am"
             subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+            onPress={() => {}}
           />
         </View>
       </View>
