@@ -125,7 +125,7 @@ export default function BottomTabNavigator({ navigation, route }) {
         name="MyTask"
         component={MyTask}
         options={{
-          title: "My Task",
+          title: "Task",
           icon: "ios-checkmark-circle-outline",
         }}
       />
@@ -133,7 +133,7 @@ export default function BottomTabNavigator({ navigation, route }) {
         name="Menu"
         component={Menu}
         options={{
-          title: "Menu",
+          title: "Project",
           icon: "md-apps",
         }}
       />
@@ -149,7 +149,7 @@ export default function BottomTabNavigator({ navigation, route }) {
         name="Quick"
         component={Quick}
         options={{
-          title: "Quick",
+          title: "Personal",
           icon: "ios-clipboard",
         }}
       />

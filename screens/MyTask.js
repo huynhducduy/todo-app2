@@ -24,9 +24,176 @@ export default function MyTask() {
     { key: "second", title: "Month" },
   ]);
 
+  const Route0 = () => {
+    return (
+      <ScrollView>
+        <View style={{ flex: 1, padding: 20, backgroundColor: "#FDFDFD" }}>
+          <Text style={{ fontFamily: "ABeeZee-Regular", opacity: 0.7 }}>
+            TODAY, AUG 4/2020
+          </Text>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 15 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#6074F9",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle-outline"
+                size={25}
+                color="#6074F9"
+              />
+              title="Go fishing with Stephen"
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+            />
+          </View>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 10 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#F96060",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle"
+                size={25}
+                color="#F96060"
+              />
+              title="Meet according with design team "
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+              onPress={() => setVisible(true)}
+            />
+          </View>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 10 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#F96060",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle"
+                size={25}
+                color="#F96060"
+              />
+              title="Meet according with design team "
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+              onPress={() => setVisible(true)}
+            />
+          </View>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 10 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#F96060",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle"
+                size={25}
+                color="#F96060"
+              />
+              title="Meet according with design team "
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+              onPress={() => setVisible(true)}
+            />
+          </View>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 10 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#F96060",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle"
+                size={25}
+                color="#F96060"
+              />
+              title="Meet according with design team "
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+              onPress={() => setVisible(true)}
+            />
+          </View>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 10 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#F96060",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle"
+                size={25}
+                color="#F96060"
+              />
+              title="Meet according with design team "
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+              onPress={() => setVisible(true)}
+            />
+          </View>
+        </View>
+      </ScrollView>
+    );
+  };
+
   const Route = () => {
     return (
-      <>
+      <ScrollView>
         <View style={{ flex: 1, backgroundColor: "#fff" }}>
           <Calendar
             markedDates={{
@@ -99,13 +266,117 @@ export default function MyTask() {
               onPress={() => setVisible(true)}
             />
           </View>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 10 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#F96060",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle"
+                size={25}
+                color="#F96060"
+              />
+              title="Meet according with design team "
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+              onPress={() => setVisible(true)}
+            />
+          </View>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 10 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#F96060",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle"
+                size={25}
+                color="#F96060"
+              />
+              title="Meet according with design team "
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+              onPress={() => setVisible(true)}
+            />
+          </View>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 10 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#F96060",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle"
+                size={25}
+                color="#F96060"
+              />
+              title="Meet according with design team "
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+              onPress={() => setVisible(true)}
+            />
+          </View>
+          <View
+            style={{ overflow: "hidden", paddingBottom: 10, marginTop: 10 }}
+          >
+            <ListItem
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 1, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 4,
+                elevation: 5,
+                borderRightColor: "#F96060",
+                borderRightWidth: 4,
+              }}
+              key={1}
+              leftIcon=<Ionicons
+                name="ios-checkmark-circle"
+                size={25}
+                color="#F96060"
+              />
+              title="Meet according with design team "
+              titleStyle={{ fontFamily: "ABeeZee-Regular" }}
+              subtitle="9:00am"
+              subtitleStyle={{ fontFamily: "ABeeZee-Italic", opacity: 0.5 }}
+              onPress={() => setVisible(true)}
+            />
+          </View>
         </View>
-      </>
+      </ScrollView>
     );
   };
 
   const renderScene = SceneMap({
-    first: Route,
+    first: Route0,
     second: Route,
   });
 
@@ -304,7 +575,7 @@ export default function MyTask() {
               bottomDivider
             />
             <ListItem
-              title="Tag"
+              title="Project"
               titleStyle={{
                 fontFamily: "ABeeZee-Regular",
                 fontSize: 16,
